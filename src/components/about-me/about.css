@@ -1,0 +1,41 @@
+p {
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 62px;
+    margin-left: 30px;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+}
+
+.title > h2 {
+    margin:0 0 0 25px;
+}
+
+.about-dot {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background: #ED624C;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }

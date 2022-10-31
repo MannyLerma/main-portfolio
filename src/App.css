@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Braveold;
+  src: url(Braveold-Bold.ttf);
+}
+
+.container {
+  margin: 36px 220px;
+}
