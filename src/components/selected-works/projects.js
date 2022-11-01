@@ -21,8 +21,8 @@ return (
                     <p>Design, HTML, CSS, JavaScript, Illustration</p>
                     <img src={RPS} alt={'Rock, Paper, Scissors project'} />
                     <div className='project-buttons'>
-                        <a href='https://mannylerma.github.io/rock-paper-scissors-v2/'><button>Live</button></a>
-                        <a href='https://github.com/MannyLerma/rock-paper-scissors-v2'><button>Github</button></a>
+                        <a href='https://mannylerma.github.io/rock-paper-scissors-v2/' target="_blank"><button>Live</button></a>
+                        <a href='https://github.com/MannyLerma/rock-paper-scissors-v2' target="_blank"><button>Github</button></a>
                     </div>
                 </div>
                 
@@ -46,8 +46,8 @@ return (
                     <p>Design, HTML, CSS, JavaScript, API</p>
                     <img src={Weather} />
                     <div className='project-buttons'>
-                        <a href=''><button>Live</button></a>
-                        <a href=''><button>Github</button></a>
+                        <a href='https://mannylerma.github.io/react-weather-app/' target="_blank"><button>Live</button></a>
+                        <a href='https://github.com/MannyLerma/react-weather-app' target="_blank"><button>Github</button></a>
                     </div>
                 </div>
                 
@@ -59,7 +59,7 @@ return (
                 <img src={Laptop} />
                 <div className='project-buttons'>
                         {/* <a><button>Live</button></a> */}
-                        <a href='https://github.com/MannyLerma/main-portfolio'><button className='single-btn'>Github</button></a>
+                        <a href='https://github.com/MannyLerma/main-portfolio' target="_blank"><button className='single-btn'>Github</button></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ return (
                     <p>Web Design, Graphic Design, WordPress</p>
                     <img src={CSS} />
                     <div className='project-buttons'>
-                        <a href='https://completesignssolutions.com/'><button className='single-btn'>Live</button></a>
+                        <a href='https://completesignssolutions.com/' target="_blank"><button className='single-btn'>Live</button></a>
                     </div>
                 </div>
                 
@@ -82,7 +82,7 @@ return (
                 <p>Web Design, Graphic Design, WordPress, Drawing/Painting</p>
                 <img src={GFX} />
                 <div className='project-buttons'>
-                        <a href='https://mannylerma.design/'><button className='single-btn'>Live</button></a>
+                        <a href='https://mannylerma.design/' target="_blank"><button className='single-btn'>Live</button></a>
                     </div>
                 </div>
             </div>
