@@ -20,10 +20,12 @@
 }
 
 
-img {
+
+.brand-container > img {
     width: 42px;
     height: 42px;
-    margin-right: 6px;
+    margin-right: 8px;
+    margin-top: -6px;
 }
 
 div.logo {
@@ -51,7 +53,21 @@ div.logo {
     cursor: pointer;
 }
 
-.links > p:hover {
-    color: darkgray;
+div.top-nav-container > a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav-container p a {
+    text-decoration: none;
+    color: gray;
+}
+
+.top-nav-container  p a:hover {
+    color: black;
     transition: color ease-out 200ms;
+}
+
+.links > p:hover {
+
 }

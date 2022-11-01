@@ -40,7 +40,7 @@ input:last-child {
     gap: 12px;
 }
 
-.link-row > img {
+.link-row  img {
     width: auto;
     height: 50px;
     margin: 6px 0;

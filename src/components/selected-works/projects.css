@@ -80,24 +80,32 @@ div.card:hover > img {
     margin-bottom: 24px;
 }
 
+
 button {
     font-family: 'Futura';
     font-size: 21px;
     padding: 16px 40px;
-    background: none;
+    background-color: black;
+    color: white;
     border: 2.5px black solid;
     letter-spacing: 2px;
     cursor: pointer;
+    width: 14vw;
 }
 
 button:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: .5s;
     box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.496);
+    transition: .5s;
 }
 
-button:first-child {
+.single-btn {
+    width: 26vw;
+}
+
+/* button:first-child {
     background-color: black;
     color: white;
     width: 14vw;
@@ -107,7 +115,7 @@ button:first-child:hover {
     background-color: white;
     color: black;
     transition: .5s;
-}
+} */
 
 .title {
     display: flex;
@@ -130,4 +138,8 @@ button:first-child:hover {
     background: #5CC63F;
     border-radius: 50%;
     margin-bottom: 8px;
+  }
+
+  #works {
+    padding-top: 120px;
   }

@@ -21,10 +21,10 @@ p {
 .heading-links {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 36px;
 }
 
-.heading-links > img {
+.heading-links  img {
     width: auto;
     height: 60px;
 }

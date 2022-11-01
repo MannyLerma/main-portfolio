@@ -71,7 +71,7 @@ export const Intro = () => {
                         </a>
                     </div>
                     <div className='tooltip'>
-                        <a href="mailto:someone@something.com?subject=your title&body=TThe message">
+                        <a href="mailto:someone@something.com?subject=your title&body=TThe message" target="_blank">
                             <img src={email} />
                             <p className='tooltiptxt'>E-mail</p>
                         </a>

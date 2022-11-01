@@ -4,7 +4,7 @@ import NewTab from './open-new-tab.png';
 export const Resume = () => {
 
     return (
-        <div className='resume-container'>
+        <div id="resume" className='resume-container'>
             <div className='title'>
                 <span  className="resume-dot"></span>
                 <h2>Resume</h2>
@@ -88,7 +88,7 @@ export const Resume = () => {
                     <h3>Online Courses</h3>
                     <div className='online-course'>
                         <div className='course-link'>
-                            <h4><a href='https://www.freecodecamp.org/'>freeCodeCamp</a></h4>
+                            <h4><a href='https://www.freecodecamp.org/' target="_blank">freeCodeCamp</a></h4>
                             <img src={NewTab}></img>
                         </div>
                         <p>Responsive Web Design</p>
@@ -96,21 +96,21 @@ export const Resume = () => {
                     </div>
                     <div className='online-course'>
                         <div className='course-link'>
-                            <h4><a href='https://www.theodinproject.com/'>The Odin Project</a></h4>
+                            <h4><a href='https://www.theodinproject.com/' target="_blank">The Odin Project</a></h4>
                             <img src={NewTab}></img>
                         </div>
                         <p>Foundations</p>
                     </div>
                     <div className='online-course'>
                         <div className='course-link'>
-                            <h4><a href='https://www.codecademy.com/'>Codecademy</a></h4>
+                            <h4><a href='https://www.codecademy.com/' target="_blank">Codecademy</a></h4>
                             <img src={NewTab}></img>
                         </div>
                         <p>Various Courses</p>
                     </div>
                     <div className='online-course'>
                         <div className='course-link'>
-                            <h4><a href='https://www.udemy.com/'>Udemy</a></h4>
+                            <h4><a href='https://www.udemy.com/' target="_blank">Udemy</a></h4>
                             <img src={NewTab}></img>
                         </div>
                             <p>The Complete 2022 Web Development Bootcamp</p>
@@ -118,14 +118,14 @@ export const Resume = () => {
                     </div>
                     <div className='online-course'>
                         <div className='course-link'>
-                            <h4><a href='https://www.coursera.org/'>Coursera</a></h4>
+                            <h4><a href='https://www.coursera.org/' target="_blank">Coursera</a></h4>
                             <img src={NewTab}></img>
                         </div>
                         <p>Intro to UX Design from Georgia Tech</p>
                     </div>
                     <div className='online-course'>
                         <div className='course-link'>
-                            <h4><a href='https://learndigital.withgoogle.com/digitalgarage/'>Google Digital Garage</a></h4>
+                            <h4><a href='https://learndigital.withgoogle.com/digitalgarage/' target="_blank">Google Digital Garage</a></h4>
                             <img src={NewTab}></img>
                         </div>
                         <p>Fundamentals of Digital Marketing</p>

@@ -7,7 +7,7 @@ import email from './email.png';
 export const Contact = () => {
 
     return (
-        <div className='contact-container'>
+        <div id="contact" className='contact-container'>
             <div>
                 <div className='title'>
                     <span className="dot"></span>
@@ -20,19 +20,19 @@ export const Contact = () => {
             <br></br>
             <div className='contact-links-container'>
                 <div className='link-row'>
-                    <a href="mailto:someone@something.com?subject=your title&body=TThe message">
+                    <a href="mailto:someone@something.com?subject=your title&body=TThe message" target="_blank">
                         <img src={email}/>
                         <h3>Emmanuellerma@outlook.com</h3>
                     </a>
                 </div>
                 <div className='link-row'>
-                    <a href='https://github.com/MannyLerma'>
+                    <a href='https://github.com/MannyLerma' target="_blank">
                         <img src={github}/>
                         <h3>Github Link</h3>
                     </a>
                 </div>
                 <div className='link-row'>
-                    <a href='https://www.linkedin.com/in/emmanuellerma/'>
+                    <a href='https://www.linkedin.com/in/emmanuellerma/' target="_blank">
                         <img src={linkedin}/>
                         <h3>Linkedin Link</h3>
                     </a>

@@ -9,7 +9,7 @@ import GFX from './Design-Mockup.png';
 export const Projects = () => {
 
 return (
-    <div className='projects-container'>
+    <div id="works" className='projects-container'>
         <div className='title'>
             <span  className="project-dot"></span>
             <h2>Selected Works</h2>
@@ -18,11 +18,11 @@ return (
             <div className='left-container'>
                 <div className='card'>
                     <h3>Rock, Paper, Scissors</h3>
-                    <p>Web Design, Web Development</p>
+                    <p>Design, HTML, CSS, JavaScript, Illustration</p>
                     <img src={RPS} alt={'Rock, Paper, Scissors project'} />
                     <div className='project-buttons'>
-                        <button>Live</button>
-                        <button>Github</button>
+                        <a href='https://mannylerma.github.io/rock-paper-scissors-v2/'><button>Live</button></a>
+                        <a href='https://github.com/MannyLerma/rock-paper-scissors-v2'><button>Github</button></a>
                     </div>
                 </div>
                 
@@ -30,11 +30,11 @@ return (
             <div className='right-container'>
                 <div className='card'>
                 <h3>Hulu Clone</h3>
-                <p>React Development, Web Design</p>
+                <p>HTML, CSS, JavaScript</p>
                 <img src={Hulu} />
                 <div className='project-buttons'>
-                        <button>Live</button>
-                        <button>Github</button>
+                        <a href='https://mannylerma.github.io/hulu-webpage-clone/' target="_blank"><button>Live</button></a>
+                        <a href='https://github.com/MannyLerma/hulu-webpage-clone' target="_blank"><button>Github</button></a>
                     </div>
                 </div>
             </div>
@@ -43,11 +43,11 @@ return (
             <div className='left-container shift-up'>
                 <div className='card'>
                     <h3>Weather App</h3>
-                    <p>Web Design, Web Development</p>
+                    <p>Design, HTML, CSS, JavaScript, API</p>
                     <img src={Weather} />
                     <div className='project-buttons'>
-                        <button>Live</button>
-                        <button>Github</button>
+                        <a href=''><button>Live</button></a>
+                        <a href=''><button>Github</button></a>
                     </div>
                 </div>
                 
@@ -55,11 +55,11 @@ return (
             <div className='right-container'>
                 <div className='card'>
                 <h3>This Portfolio</h3>
-                <p>React Development, Web Design</p>
+                <p>Design, HTML, CSS, React Development</p>
                 <img src={Laptop} />
                 <div className='project-buttons'>
-                        <button>Live</button>
-                        <button>Github</button>
+                        {/* <a><button>Live</button></a> */}
+                        <a href='https://github.com/MannyLerma/main-portfolio'><button className='single-btn'>Github</button></a>
                     </div>
                 </div>
             </div>
@@ -68,11 +68,10 @@ return (
             <div className='left-container shift-up2'>
                 <div className='card'>
                     <h3>Client Website</h3>
-                    <p>Web Design, Web Development</p>
+                    <p>Web Design, Graphic Design, WordPress</p>
                     <img src={CSS} />
                     <div className='project-buttons'>
-                        <button>Live</button>
-                        <button>Github</button>
+                        <a href='https://completesignssolutions.com/'><button className='single-btn'>Live</button></a>
                     </div>
                 </div>
                 
@@ -80,11 +79,10 @@ return (
             <div className='right-container'>
                 <div className='card'>
                 <h3>My Graphic Design Website</h3>
-                <p>React Development, Web Design</p>
+                <p>Web Design, Graphic Design, WordPress, Drawing/Painting</p>
                 <img src={GFX} />
                 <div className='project-buttons'>
-                        <button>Live</button>
-                        <button>Github</button>
+                        <a href='https://mannylerma.design/'><button className='single-btn'>Live</button></a>
                     </div>
                 </div>
             </div>

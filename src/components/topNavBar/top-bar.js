@@ -6,15 +6,17 @@ export const TopNavBar = () => {
 
     return (
         <div className="top-nav-container">
+            <a href="mannylerma.com">
             <div className="brand-container">
                 <img src={logo} alt="logo" width="68px" height="68px" />
                 <p className="title">Mannylerma.com</p>
             </div>
+            </a>
             <div className="links">
-                <p>Work</p>
-                <p>Resume</p>
-                <p>About</p>
-                <p>Contact</p>
+                <p><a href="#works">Work</a></p>
+                <p><a href="#resume">Resume</a></p>
+                <p><a href="#about">About</a></p>
+                <p><a href="#contact">Contact</a></p>
             </div>
         </div>
     )
