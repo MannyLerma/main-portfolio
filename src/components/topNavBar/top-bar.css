@@ -68,6 +68,51 @@ div.top-nav-container > a {
     transition: color ease-out 200ms;
 }
 
-.links > p:hover {
+@media  screen and (max-width: 1440px) { 
+    
+    .top-nav-container {
+        width: 81vw;
+        margin-left: -40px;
+    }
+}
 
+
+@media  screen and (max-width: 1024px) { 
+    
+    .top-nav-container {
+        width: 90vw;
+        margin-left: -30px;
+    }
+}
+
+@media  screen and (max-width: 768px) { 
+    
+    .top-nav-container {
+        width: 120vw;
+        margin-left: -30px;
+    }
+}
+
+@media  screen and (max-width: 425px) { 
+    
+    .top-nav-container {
+        width: 218vw;
+        margin-left: -30px;
+    }
+}
+
+@media  screen and (max-width: 375px) { 
+    
+    .top-nav-container {
+        width: 245vw;
+        margin-left: -30px;
+    }
+}
+
+@media  screen and (max-width: 320px) { 
+    
+    .top-nav-container {
+        width: 288vw;
+        margin-left: -30px;
+    }
 }

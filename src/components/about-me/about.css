@@ -43,3 +43,12 @@ p {
   #about {
     padding-top: 120px;
   }
+
+
+
+  @media  screen and (max-width: 768px) { 
+
+    .about-text-container {
+        margin-left: 15px;
+    }
+  }

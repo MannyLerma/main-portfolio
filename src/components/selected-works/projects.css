@@ -143,3 +143,191 @@ button:first-child:hover {
   #works {
     padding-top: 120px;
   }
+
+
+  @media  screen and (max-width: 1440px) { 
+    
+    .left-container{
+        width: 30vw;
+    }
+
+    .right-container{
+        width: 30vw;
+    }
+  }
+  
+  @media  screen and (max-width: 1024px) { 
+  
+    .left-container {
+        width: 33vw;
+        padding: 27px;
+    }
+    .right-container{
+        width: 33vw;
+        padding: 27px;
+    }
+
+    .card-containers {
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 33vw;
+    }
+
+    .card > h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .card > p {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    div.card > img {
+        margin: 42px 0;
+    }
+  
+  }
+  
+  @media  screen and (max-width: 768px) { 
+      
+    .left-container {
+        width: 42vw;
+    }
+    .right-container{
+        width: 42vw;
+        padding: 27px;
+    }
+
+    .card-containers {
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 42vw;
+        gap: 4px;
+    }
+
+    .card > h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .card > p {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    div.card > img {
+        margin: 42px 0;
+    }
+
+    div.card  button {
+        width: 20vw;
+    }
+
+    .project-buttons {
+        justify-content: space-between;
+    }
+  }
+  
+  @media  screen and (max-width: 425px) { 
+      
+    .left-container {
+        width: 78vw;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: -50px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -100px;
+    }
+
+    .right-container {
+        width: 78vw;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 78vw;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    div.card button {
+        width: 78vw;
+    }
+  }
+  
+  @media  screen and (max-width: 375px) { 
+      
+    .left-container {
+        width: 82vw;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: -50px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -100px;
+    }
+
+    .right-container {
+        width: 82vw;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 82vw;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    div.card button {
+        width: 82vw;
+    }
+  }
+  
+  @media  screen and (max-width: 320px) { 
+      
+    .left-container {
+        width: 98vw;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: -50px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -100px;
+    }
+
+    .right-container {
+        width: 98vw;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 98vw;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    div.card button {
+        width: 98vw;
+    }
+  }

@@ -11,3 +11,53 @@
 .container {
   margin: 36px 220px;
 }
+
+
+@media  screen and (max-width: 1440px) { 
+    
+  .container {
+      margin: 0px 175px;
+  }
+}
+
+@media  screen and (max-width: 1024px) { 
+    
+  #root {
+    width: 107vw ;
+  }
+
+  .container {
+      margin: 36px 115px;
+  }
+
+
+
+}
+
+@media  screen and (max-width: 768px) { 
+    
+  #root {
+    width: 142vw ;
+  }
+}
+
+@media  screen and (max-width: 425px) { 
+    
+  #root {
+    width: 257vw ;
+  }
+}
+
+@media  screen and (max-width: 375px) { 
+    
+  #root {
+    width: 290vw ;
+  }
+}
+
+@media  screen and (max-width: 320px) { 
+    
+  #root {
+    width: 340vw ;
+  }
+}

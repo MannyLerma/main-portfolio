@@ -130,3 +130,48 @@ a:visited {
   #resume {
     padding-top: 120px;
   }
+
+
+  @media  screen and (max-width: 1440px) { 
+    
+    .resume-info-container{
+        gap: 214px;
+    }
+  }
+  
+  @media  screen and (max-width: 1024px) { 
+  
+    .resume-info-container {
+        gap: 120px;
+        margin-left: 15px;
+    }
+  
+  }
+  
+  @media  screen and (max-width: 768px) { 
+      
+    .resume-info-container {
+        gap: 120px;
+    }
+  }
+  
+  @media  screen and (max-width: 425px) { 
+      
+    .resume-info-container {
+        gap: 120px;
+    }
+  }
+  
+  @media  screen and (max-width: 375px) { 
+      
+    .resume-info-container {
+        gap: 120px;
+    }
+  }
+  
+  @media  screen and (max-width: 320px) { 
+      
+    .resume-info-container {
+        gap: 120px;
+    }
+  }
