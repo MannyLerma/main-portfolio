@@ -75,8 +75,29 @@ input:last-child {
 
 
 
+/* Formally 1024px */
+@media  screen and (max-width: 64em) { 
 
-  @media  screen and (max-width: 425px) {
+    .link-row img {
+        margin-right: 25px;
+    }
+
+}
+
+
+
+/* Formally 768px */
+@media  screen and (max-width: 48em) {
+
+    .link-row > a {
+        gap: 22px;
+    }
+  }
+
+
+
+/* Formally 425px */
+@media  screen and (max-width: 26.5625em) {
 
     .title > h2 {
         margin: 0 0 0 12px;

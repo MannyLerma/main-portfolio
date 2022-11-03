@@ -3,6 +3,10 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: black;
+}
+
 @font-face {
   font-family: Braveold;
   src: url(Braveold-Bold.ttf);
@@ -13,34 +17,67 @@
 }
 
 
-@media  screen and (max-width: 1440px) { 
+
+/* Formally 1440px */
+@media  screen and (max-width: 90em) { 
     
   .container {
       margin: 0px 175px;
   }
 }
 
-@media  screen and (max-width: 1024px) { 
+
+
+
+/* Formally 1279px */
+@media  screen and (max-width: 79.9375em) { 
     
   #root {
-    width: 107vw ;
+    width: 100vw ;
   }
 
   .container {
-      margin: 36px 115px;
+      margin: 36px 72px;
   }
 
 }
 
-@media  screen and (max-width: 768px) { 
+
+
+/* Formally 1024px */
+@media  screen and (max-width: 64em) { 
     
+
+
   #root {
-    width: 142vw ;
+    width: 100vw ;
+  }
+
+  .container {
+      margin: 36px 60px;
+  }
+
+}
+
+
+
+/* Formally 768px */
+@media  screen and (max-width: 48em) { 
+    
+  
+  #root {
+    width: 100vw ;
+  }
+
+  .container {
+    margin: 16px 29px;
   }
 }
 
 
-@media  screen and (max-width: 703px) { 
+
+/* Formally 703px */
+@media  screen and (max-width: 43.9375em) { 
     
   #root {
     width: 100vw ;
@@ -52,7 +89,9 @@
 }
 
 
-@media  screen and (max-width: 425px) { 
+
+/* Formally 425px */
+@media  screen and (max-width: 26.5625em) { 
     
   * {
     overflow-x: hidden;
@@ -63,14 +102,18 @@
   }
   
   .container {
-    margin: 16px 30px;
+    margin: 16px 20px;
   }
 }
 
 
-
-@media  screen and (max-width: 375px) { 
+/* Formally 375px */
+@media  screen and (max-width: 23.4375em) { 
     
+  * {
+    overflow-x: hidden;
+  }
+
   #root {
     width: 100vw;
   }
@@ -82,8 +125,14 @@
 
 
 
-@media  screen and (max-width: 320px) { 
+
+/* Formally 320px */
+@media  screen and (max-width: 20em) { 
     
+  * {
+    overflow-x: hidden;
+  }
+
   #root {
     width: 320px ;
   }

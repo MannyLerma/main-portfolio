@@ -108,7 +108,47 @@ p {
   }
 
 
-  @media  screen and (max-width: 703px) {
+
+
+/* Formally 1024px */
+@media  screen and (max-width: 64em) { 
+    
+    h1 {
+      font-size: 70px;
+    }
+
+    .subtext-heading  p {
+      font-size: 21px;
+    }
+
+    .heading-links img {
+      margin-top: 25px;
+      margin-right: 45px;
+    }
+
+  
+  }
+
+
+/* Formally 768px */
+@media  screen and (max-width: 48em) {
+
+    h1 {
+      font-size: 72px;
+    }
+
+    .subtext-heading  p {
+      font-size: 21px;
+    }
+
+    .heading-links {
+      gap: 50px;
+    }
+  }
+
+
+/* Formally 703px */
+@media  screen and (max-width: 43.9375em) {
 
     h1 {
       font-size: 66px;
@@ -124,7 +164,8 @@ p {
   }
 
 
-  @media  screen and (max-width: 425px) { 
+/* Formally 425px */
+@media  screen and (max-width: 26.5625em) { 
     
     h1 {
       font-size: 36px;
@@ -143,11 +184,15 @@ p {
     .tooltip {
       overflow-y: hidden;
     }
+
+    .heading-links {
+      gap: 40px;
+    }
 }
 
 
-
-@media  screen and (max-width: 375px) { 
+/* Formally 375px */
+@media  screen and (max-width: 23.4375em) { 
 
   .subtext-heading  p {
     font-size: 16px;
@@ -158,9 +203,13 @@ p {
   .heading-links {
     gap: 29px;
   }
+
+
 }
 
-@media  screen and (max-width: 320px) { 
+
+/* Formally 320px */
+@media  screen and (max-width: 20em){ 
 
   h1 {
     font-size: 32px;

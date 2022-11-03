@@ -16,6 +16,8 @@
     border-style: solid;
     border-width: 0px 0px 5px 0px;
     border-color: hsl(0, 2%, 91%);
+    width: 110%;
+    margin-left: -5%;
 
 }
 
@@ -68,35 +70,89 @@ div.top-nav-container > a {
     transition: color ease-out 200ms;
 }
 
-@media  screen and (max-width: 1440px) { 
+
+/* Formally 1440px */
+@media  screen and (max-width: 90em) { 
     
     .top-nav-container {
-        width: 81vw;
-        margin-left: -40px;
+        width: 88vw;
+        margin-left: -75px;
     }
 }
 
 
-@media  screen and (max-width: 1024px) { 
+
+/* Formally 1279px */
+@media  screen and (max-width: 79.9375em) { 
     
     .top-nav-container {
-        width: 90vw;
+        width: 93vw;
         margin-left: -30px;
     }
+
+    
 }
 
-@media  screen and (max-width: 768px) { 
+
+
+/* Formally 1024px */
+@media  screen and (max-width: 64em) { 
     
     .top-nav-container {
-        width: 120vw;
+        width: 92vw;
         margin-left: -30px;
+    }
+
+    .links {
+        gap: 30px;
+    }
+
+    .links > p {
+        font-size: 21px;
+        margin-left: 25px;
     }
 }
 
-@media  screen and (max-width: 425px) { 
+
+/* Formally 768px */
+@media  screen and (max-width: 48em) { 
     
     .top-nav-container {
-        width: 100%;
+        width: 96vw;
+        margin-left: -15px;
+    }
+
+    .links {
+        gap: 36px
+    }
+
+    .links > p {
+        font-size: 21px;
+    }
+}
+
+/* Formally 703px */
+@media  screen and (max-width: 43.9375em) {
+
+    .top-nav-container {
+        width: 96vw;
+    }
+
+    .links {
+        gap: 25px
+    }
+
+    .links > p {
+        font-size: 21px;
+    }
+}
+
+
+/* Formally 425px */
+@media  screen and (max-width: 26.5625em) { 
+    
+    .top-nav-container {
+        width: 98%;
         justify-content: center;
         position: absolute;
     }
@@ -120,27 +176,12 @@ div.top-nav-container > a {
 }
 
 
-@media  screen and (max-width: 703px) {
 
-    .top-nav-container {
-        width: 96vw;
-    }
-
-    .links {
-        gap: 25px
-    }
-
-    .links > p {
-        font-size: 21px;
-    }
-}
-
-
-
-@media  screen and (max-width: 375px) { 
+/* Formally 375px */
+@media  screen and (max-width: 23.4375em) { 
     
     .top-nav-container {
-        width: 100%;
+        width: 97%;
         justify-content: center;
         position: absolute;
     }
@@ -151,11 +192,11 @@ div.top-nav-container > a {
 }
 
 
-
-@media  screen and (max-width: 320px) { 
+/* Formally 320px */
+@media  screen and (max-width: 20em) { 
     
     .top-nav-container {
-        width: 100%;
+        width: 97%;
         /* margin-left: -30px; */
         justify-content: center;
         position: absolute;

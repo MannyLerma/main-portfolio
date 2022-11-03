@@ -22,7 +22,7 @@ h3 {
 .card {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 28vw;
     justify-content: space-between;
 }
 
@@ -45,7 +45,7 @@ div.card:hover > img {
     display: flex;
     border: 4px solid black;
     height: 75%;
-    width: 30vw;
+    width: 28vw;
     border-radius: 32px;
     padding: 32px;
     padding-bottom: 46px;
@@ -64,7 +64,7 @@ div.card:hover > img {
     display: flex;
     border: 4px solid black;
     height: 75%;
-    width: 30vw;
+    width: 28vw;
     border-radius: 32px;
     padding: 32px;
     margin-top: 100px;
@@ -90,7 +90,7 @@ button {
     border: 2.5px black solid;
     letter-spacing: 2px;
     cursor: pointer;
-    width: 14vw;
+    width: 13vw;
 }
 
 button:hover {
@@ -145,7 +145,9 @@ button:first-child:hover {
   }
 
 
-  @media  screen and (max-width: 1440px) { 
+  
+/* Formally 1440px */
+@media  screen and (max-width: 90em) { 
     
     .left-container{
         width: 30vw;
@@ -154,11 +156,21 @@ button:first-child:hover {
     .right-container{
         width: 30vw;
     }
+
+    div.card > img {
+        margin: 42px 0;
+        width: auto;
+        height: auto;
+    }
   }
   
 
 
-  @media  screen and (max-width: 1024px) { 
+
+
+
+/* Formally 1024px */
+@media  screen and (max-width: 64em) { 
   
     .left-container {
         width: 33vw;
@@ -171,6 +183,14 @@ button:first-child:hover {
 
     .card-containers {
         justify-content: space-between;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: -20px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -40px;
     }
 
     .card {
@@ -189,27 +209,57 @@ button:first-child:hover {
 
     div.card > img {
         margin: 42px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .project-buttons {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    div.project-buttons button{
+        margin-bottom: 15px;
+    }
+
+
+    button {
+        width: 100%;
+    }
+
+    .single-btn {
+        width: 100%;
     }
   }
   
 
 
-  @media  screen and (max-width: 768px) { 
+/* Formally 768px */
+@media  screen and (max-width: 48em) { 
       
+
     .left-container {
-        width: 42vw;
+        width: 36vw;
     }
     .right-container{
-        width: 42vw;
+        width: 36vw;
         padding: 27px;
     }
 
     .card-containers {
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: -20px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -40px;
     }
 
     .card {
-        width: 42vw;
+        width: 36vw;
         gap: 4px;
     }
 
@@ -225,19 +275,23 @@ button:first-child:hover {
 
     div.card > img {
         margin: 42px 0;
+        width: auto;
+        height: auto;
     }
 
     div.card  button {
-        width: 20vw;
+        width: 36vw;
     }
 
     .project-buttons {
         justify-content: space-between;
+        flex-direction: column;
+        gap: 12px;
     }
   }
   
-
-  @media  screen and (max-width: 703px) { 
+/* Formally 703px */
+@media  screen and (max-width: 43.9375em) { 
 
     .left-container {
         width: 32vw;
@@ -290,7 +344,9 @@ button:first-child:hover {
   } 
 
 
-  @media  screen and (max-width: 425px) { 
+  
+/* Formally 425px */
+@media  screen and (max-width: 26.5625em) { 
       
     h2 {
         font-size: 42px;
@@ -348,8 +404,11 @@ button:first-child:hover {
         width: 70vw;
     }
   }
-  
-  @media  screen and (max-width: 375px) { 
+
+
+
+/* Formally 375px */
+@media  screen and (max-width: 23.4375em) { 
       
     h2 {
         font-size: 40px;
@@ -388,7 +447,8 @@ button:first-child:hover {
   
 
 
-  @media  screen and (max-width: 320px) { 
+/* Formally 320px */
+@media  screen and (max-width: 20em) { 
       
     .left-container {
         width: 64vw;
