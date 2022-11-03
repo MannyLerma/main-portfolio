@@ -44,6 +44,25 @@ p {
     padding-top: 120px;
   }
 
+/* Formally 1279px */
+@media  screen and (max-width: 79.9375em) { 
+
+    .about-text-container {
+        margin-left: 10px;
+    }
+
+    .text-container  {
+        margin-bottom: 32px;
+    }
+
+    .text-container > p {
+        font-size: 21px;
+    }
+
+
+}
+
+
 
 /* Formally 1024px */
 @media  screen and (max-width: 64em)  { 

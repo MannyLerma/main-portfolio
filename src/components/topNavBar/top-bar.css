@@ -90,6 +90,15 @@ div.top-nav-container > a {
         margin-left: -30px;
     }
 
+    .links {
+        gap: 30px;
+    }
+
+    .links > p {
+        font-size: 24px;
+        margin-left: 32px;
+    }
+
     
 }
 

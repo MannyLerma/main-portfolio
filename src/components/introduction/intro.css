@@ -108,6 +108,23 @@ p {
   }
 
 
+/* Formally 1279px */
+@media  screen and (max-width: 79.9375em) { 
+    
+  h1 {
+    font-size: 76px;
+  }
+
+  .subtext-heading  p {
+    font-size: 21px;
+  }
+
+  .heading-links img {
+    margin-top: 25px;
+    margin-right: 45px;
+  }
+}
+
 
 
 /* Formally 1024px */

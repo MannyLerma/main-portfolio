@@ -153,11 +153,49 @@ a:visited {
     }
 
     .resume-left-side {
-        width: 45%;
+        width: 42%;
+    }
+
+    div.work-experience {
+        margin: 14px 0;
+    }
+
+    div.education {
+        margin: 14px 0;
+    }
+
+    div.online-course {
+        margin: 14px 0;
     }
 
     .list {
         gap: 60px;
+    }
+
+    .list {
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .resume-right-side {
+        margin-left: 86px;
+    }
+
+    div.work-experience > p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+
+    div.education > p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .online-course > p {
+        font-size: 20px;
+        line-height: 28px;
     }
   
   }
@@ -224,7 +262,6 @@ a:visited {
         gap: 60px;
         display: flex;
         justify-content: space-between;
-
     }
 
     .list li {

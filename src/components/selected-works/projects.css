@@ -165,7 +165,24 @@ button:first-child:hover {
   }
   
 
+/* Formally 1279px */
+@media  screen and (max-width: 79.9375em) { 
 
+
+    div.card > img {
+        margin: 42px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: 20px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -90px;
+    }
+}
 
 
 
