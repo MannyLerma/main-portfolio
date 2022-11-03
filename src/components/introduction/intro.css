@@ -106,3 +106,72 @@ p {
   .tooltip:hover .tooltiptxt {
     visibility: visible;
   }
+
+
+  @media  screen and (max-width: 703px) {
+
+    h1 {
+      font-size: 66px;
+    }
+
+    .subtext-heading  p {
+      font-size: 21px;
+    }
+
+    .heading-links {
+      gap: 50px;
+    }
+  }
+
+
+  @media  screen and (max-width: 425px) { 
+    
+    h1 {
+      font-size: 36px;
+    }
+
+    .heading-container {
+      margin: 125px 0 ;
+    }
+
+    .subtext-heading  p {
+      font-size: 18px;
+      line-height: 32px;
+      overflow-y: hidden;
+    }
+
+    .tooltip {
+      overflow-y: hidden;
+    }
+}
+
+
+
+@media  screen and (max-width: 375px) { 
+
+  .subtext-heading  p {
+    font-size: 16px;
+    line-height: 32px;
+    overflow-y: hidden;
+  }
+
+  .heading-links {
+    gap: 29px;
+  }
+}
+
+@media  screen and (max-width: 320px) { 
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .subtext-heading p {
+    font-size: 15px;
+  }
+
+  .heading-links img {
+    width: auto;
+    height: 50px;
+}
+}

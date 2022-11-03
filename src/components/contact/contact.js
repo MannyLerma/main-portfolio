@@ -40,7 +40,7 @@ export const Contact = () => {
                 <div className='link-row'>
                     <a href='https://drive.google.com/file/d/1vNlfEz-Eh9R9MStfTwRGFQmdA1g8zUhB/view?usp=sharing' target="_blank">
                         <img src={resume}/>
-                        <h3>View My Resume</h3>
+                        <h3>Resume</h3>
                     </a>
                 </div>
 

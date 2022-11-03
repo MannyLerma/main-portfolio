@@ -156,6 +156,8 @@ button:first-child:hover {
     }
   }
   
+
+
   @media  screen and (max-width: 1024px) { 
   
     .left-container {
@@ -188,9 +190,10 @@ button:first-child:hover {
     div.card > img {
         margin: 42px 0;
     }
-  
   }
   
+
+
   @media  screen and (max-width: 768px) { 
       
     .left-container {
@@ -233,27 +236,107 @@ button:first-child:hover {
     }
   }
   
-  @media  screen and (max-width: 425px) { 
-      
+
+  @media  screen and (max-width: 703px) { 
+
     .left-container {
-        width: 78vw;
+        width: 32vw;
+    }
+    .right-container{
+        width: 32vw;
+        padding: 27px;
+        margin-top: 90px;
     }
 
     .left-container.left-container.shift-up {
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     .left-container.left-container.shift-up2 {
-        margin-top: -100px;
+        margin-top: -40px;
+    }
+
+    .card-containers {
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 32vw;
+        gap: 4px;
+    }
+
+    .card > h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .card > p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    div.card > img {
+        margin: 36px 0;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    div.card button {
+        width: 32vw;
+    }
+  } 
+
+
+  @media  screen and (max-width: 425px) { 
+      
+    h2 {
+        font-size: 42px;
+    }
+
+    .title > h2 {
+        margin: 0 0 0 12px;
+    }
+
+    .project-dot {
+        height: 50px;
+        width: 50px;
+    }
+
+    .card-containers {
+        flex-direction: column;
+    }
+
+    .left-container {
+        width: 70vw;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: 50px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: 50px;
     }
 
     .right-container {
-        width: 78vw;
+        width: 70vw;
         margin-bottom: 10px;
     }
 
     .card {
-        width: 78vw;
+        width: 70vw;
+    }
+
+    .card > h3 {
+        font-size: 30px;
+    }
+
+    .card > p {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .project-buttons {
@@ -262,31 +345,35 @@ button:first-child:hover {
     }
 
     div.card button {
-        width: 78vw;
+        width: 70vw;
     }
   }
   
   @media  screen and (max-width: 375px) { 
       
+    h2 {
+        font-size: 40px;
+    }
+
     .left-container {
-        width: 82vw;
+        width: 66vw;
     }
 
     .left-container.left-container.shift-up {
-        margin-top: -50px;
+        margin-top: 100px;
     }
 
     .left-container.left-container.shift-up2 {
-        margin-top: -100px;
+        margin-top: 100px;
     }
 
     .right-container {
-        width: 82vw;
+        width: 66vw;
         margin-bottom: 10px;
     }
 
     .card {
-        width: 82vw;
+        width: 66vw;
     }
 
     .project-buttons {
@@ -295,14 +382,16 @@ button:first-child:hover {
     }
 
     div.card button {
-        width: 82vw;
+        width: 66vw;
     }
   }
   
+
+
   @media  screen and (max-width: 320px) { 
       
     .left-container {
-        width: 98vw;
+        width: 64vw;
     }
 
     .left-container.left-container.shift-up {
@@ -314,12 +403,12 @@ button:first-child:hover {
     }
 
     .right-container {
-        width: 98vw;
+        width: 64vw;
         margin-bottom: 10px;
     }
 
     .card {
-        width: 98vw;
+        width: 64vw;
     }
 
     .project-buttons {
@@ -328,6 +417,14 @@ button:first-child:hover {
     }
 
     div.card button {
-        width: 98vw;
+        width: 64vw;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: 100px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: 100px;
     }
   }

@@ -96,23 +96,68 @@ div.top-nav-container > a {
 @media  screen and (max-width: 425px) { 
     
     .top-nav-container {
-        width: 218vw;
-        margin-left: -30px;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .top-nav-container .title {
+        font-size: 32px;
+    }
+
+    .brand-container > img {
+        margin-top: 0;
+    }
+
+    div.brand-container > .title {
+        margin-top: 8px;
+    }
+
+    .links {
+        visibility: hidden;
+        width: 0%;
     }
 }
+
+
+@media  screen and (max-width: 703px) {
+
+    .top-nav-container {
+        width: 96vw;
+    }
+
+    .links {
+        gap: 25px
+    }
+
+    .links > p {
+        font-size: 21px;
+    }
+}
+
+
 
 @media  screen and (max-width: 375px) { 
     
     .top-nav-container {
-        width: 245vw;
-        margin-left: -30px;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .top-nav-container .title {
+        font-size: 30px;
     }
 }
+
+
 
 @media  screen and (max-width: 320px) { 
     
     .top-nav-container {
-        width: 288vw;
-        margin-left: -30px;
+        width: 100%;
+        /* margin-left: -30px; */
+        justify-content: center;
+        position: absolute;
     }
 }

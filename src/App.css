@@ -30,8 +30,6 @@
       margin: 36px 115px;
   }
 
-
-
 }
 
 @media  screen and (max-width: 768px) { 
@@ -41,23 +39,56 @@
   }
 }
 
-@media  screen and (max-width: 425px) { 
+
+@media  screen and (max-width: 703px) { 
     
   #root {
-    width: 257vw ;
+    width: 100vw ;
+  }
+
+  .container {
+    margin: 16px 40px;
   }
 }
+
+
+@media  screen and (max-width: 425px) { 
+    
+  * {
+    overflow-x: hidden;
+  }
+
+  #root {
+    max-width: 425px;
+  }
+  
+  .container {
+    margin: 16px 30px;
+  }
+}
+
+
 
 @media  screen and (max-width: 375px) { 
     
   #root {
-    width: 290vw ;
+    width: 100vw;
+  }
+
+  .container {
+    margin: 16px 26px;
   }
 }
+
+
 
 @media  screen and (max-width: 320px) { 
     
   #root {
-    width: 340vw ;
+    width: 320px ;
+  }
+
+  .container {
+    margin: 16px 22px;
   }
 }

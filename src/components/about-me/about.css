@@ -52,3 +52,50 @@ p {
         margin-left: 15px;
     }
   }
+
+
+  @media  screen and (max-width: 703px) { 
+    
+    .text-container > p {
+        font-size: 19px
+    }
+}
+
+
+  @media  screen and (max-width: 425px) { 
+
+    .about-text-container {
+        margin-left: 5px;
+    }
+
+    .text-container h4 {
+        font-size: 26px;
+    }
+
+    .text-container p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .about-dot {
+        height: 50px;
+        width: 50px;
+    }
+  }
+
+
+
+  @media  screen and (max-width: 375px) { 
+
+    .text-container {
+        font-size: 17px;
+    }
+
+    .text-container h4 {
+        font-size: 23px;
+    }
+
+    .text-container p {
+        font-size: 16px;
+    }
+  }

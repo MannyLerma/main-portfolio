@@ -154,18 +154,158 @@ a:visited {
         gap: 120px;
     }
   }
+
+
+
+  @media  screen and (max-width: 703px) { 
+      
+
+    .resume-info-container {
+        gap: 9px;
+        margin-left: 0px;
+    }
+
+    .resume-left-side {
+        width: 80%;
+    }
+
+    .resume-info-container h4 {
+        font-size: 26px;
+    }
+
+    .work-experience-container h3 {
+        font-size: 32px;
+    }
+
+    div.work-experience > p {
+        font-size: 19px;
+        line-height: 21px;
+    }
+
+    .online-course > p {
+        font-size: 19px;
+    }
+
+    div.education > p {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .courses-container h3 {
+        line-height: 40px;
+    }
+
+    .online-course > p {
+        line-height: 24px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    div.list.tools {
+        gap: 0px;
+    }
+
+    li {
+        font-size: 19px;
+    }
+  }
+
+
   
   @media  screen and (max-width: 425px) { 
       
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .title > h2 {
+        margin:  0 0 0 15px;
+    }
+
+    div.resume-info-container {
+        gap: 20px;
+    }
+
+    div.resume-info-container  h3 {
+        font-size: 32px;
+    }
+
+    div.resume-info-container  h4 {
+        font-size: 26px;
+    }
+
+    div.work-experience > p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    div.education > p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .list {
+        gap: 40px;
+    }
+
+    .list-container  li {
+        font-size: 18px;
+    }
+
+    /* .list-container > h3 {
+        font-size: 32px;
+    } */
+    
+
     .resume-info-container {
         gap: 120px;
+        flex-direction: column;
+    }
+
+    .resume-dot {
+        height: 50px;
+        width: 50px;
+    }
+
+    .online-course > p {
+        font-size: 18px;
+        line-height: 24px;
     }
   }
+
+
+
   
   @media  screen and (max-width: 375px) { 
       
     .resume-info-container {
         gap: 120px;
+        margin-left: 5px;
+    }
+
+    div.resume-info-container h3 {
+        font-size: 30px;
+    }
+
+    div.resume-info-container h4 {
+        font-size: 24px;
+    }
+
+    div.work-experience > p {
+        font-size: 16px;
+    }
+
+    .list-container  li {
+        font-size: 16px;
+    }
+
+    div.education > p {
+        font-size: 16px;
+        line-height: 24px;
     }
   }
   

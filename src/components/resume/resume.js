@@ -50,7 +50,7 @@ export const Resume = () => {
                 </div>
                 <div className='list-container'>
                     <h3>Tools</h3>
-                        <div className='list'>
+                        <div className='list tools'>
                             <div>
                             <div>
                                 <li>Wordpress</li>

@@ -14,7 +14,7 @@ export const Intro = () => {
             </div>
             <div className='subtext-heading'>
                 <div>
-                    <p>
+                    <p style={{ height: 70 }}>
                         a <span className='underline'>graphic designer</span>
                         &nbsp;and <span className='underline'>aspiring front-end 
                         developer</span>&nbsp;in Dallas.
