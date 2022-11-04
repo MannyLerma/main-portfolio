@@ -115,10 +115,11 @@ input:last-child {
     .link-row img {
         width: auto;
         height: 40px;
+        margin-right: 0px;
     }
 
     .link-row  h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .contact-links-container {

@@ -5,6 +5,7 @@ import Hulu from './Hulu-Mockup.png';
 import Weather from './Weather-Mockup.png';
 import CSS from './CSS-Mockup.png';
 import GFX from './Design-Mockup.png';
+import Portfolio from './portfolio-mockup.png';
 
 export const Projects = () => {
 
@@ -56,7 +57,7 @@ return (
                 <div className='card'>
                 <h3>This Portfolio</h3>
                 <p>Design, HTML, CSS, React Development</p>
-                <img src={Laptop} />
+                <img src={Portfolio} />
                 <div className='project-buttons'>
                         {/* <a><button>Live</button></a> */}
                         <a href='https://github.com/MannyLerma/main-portfolio' target="_blank"><button className='single-btn'>Github</button></a>

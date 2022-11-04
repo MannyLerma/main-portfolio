@@ -5,6 +5,7 @@ import Projects from './components/selected-works/projects';
 import Resume from './components/resume/resume'
 import AboutMe from './components/about-me/about'
 import Contact from './components/contact/contact';
+import MobileMenu from './components/mobile menu/mobile-menu';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Resume />
         <AboutMe />
         <Contact />
+        <MobileMenu />
     </div>
   );
 }

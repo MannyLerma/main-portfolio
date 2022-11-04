@@ -53,11 +53,11 @@ div.card:hover > img {
 }
 
 .left-container.shift-up {
-    margin-top: -75px;
+    margin-top: -65px;
 }
 
 .left-container.shift-up2 {
-    margin-top: -215px;
+    margin-top: -65px;
 }
 
 .right-container {
@@ -161,6 +161,14 @@ button:first-child:hover {
         margin: 42px 0;
         width: auto;
         height: auto;
+    }
+
+    .left-container.left-container.shift-up {
+        margin-top: -30px;
+    }
+
+    .left-container.left-container.shift-up2 {
+        margin-top: -20px;
     }
   }
   
@@ -466,7 +474,11 @@ button:first-child:hover {
 
 /* Formally 320px */
 @media  screen and (max-width: 20em) { 
-      
+    
+    .title h2 {
+        font-size: 35px;
+    }
+
     .left-container {
         width: 64vw;
     }
