@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![mannylerma com_ (2)](https://user-images.githubusercontent.com/100965716/200154214-b3179a94-f454-4471-acfa-c1f46140b948.png)
 
-## Available Scripts
+### [Live View](mannylerma.com)
 
-In the project directory, you can run:
+## Overview
+My personal portfolio [mannylerma.com](mannylerma.com) is live and showcases some of my strongest github projects so far as well as my resume, education, and technical skill/ web design skill.
 
-### `npm start`
+## Built With
+* HTML
+* CSS
+* JavaScript
+* React
+* VsCode
+* Adobe Photoshop
+* Adobe Illustrator
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Projects Showcased
+These are some of my strongest projects built so far along my coding journey. You can view these live and get further information with the links provided with each project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Rock, Paper, Scissors: [Live](https://mannylerma.github.io/rock-paper-scissors-v2/) | [Repo](https://github.com/MannyLerma/rock-paper-scissors-v2)
+* Hulu Landing Page Clone: [Live](https://mannylerma.github.io/hulu-webpage-clone/) | [Repo](https://github.com/MannyLerma/hulu-webpage-clone)
+* Weather App: [Live](https://mannylerma.github.io/react-weather-app/) | [Repo](https://github.com/MannyLerma/react-weather-app)
+* This portfolio: [Live](mannylerma.com)
+* My WordPress graphic design portfolio: [Live](https://mannylerma.design/)
+* WordPress Client website: [Live](https://completesignssolutions.com/)
 
-### `npm test`
+##  WireFrame
+I made a high fidelity wireframe when working on a design for my web design portfolio. I wanted something simple and clean without too much noise. The final product captures the initial design idea with some aspects changed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Portfolio-idea](https://user-images.githubusercontent.com/100965716/200155257-3e8ef243-d0e4-4d53-ae21-883e4f4e0611.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
